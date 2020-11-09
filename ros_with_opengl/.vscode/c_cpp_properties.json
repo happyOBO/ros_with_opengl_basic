@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/obo/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/obo/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/obo/catkin_ws/src/hls_lfcd_lds_driver/include/**",
+        "/home/obo/catkin_ws/src/ros_tutorials_action/include/**",
+        "/home/obo/catkin_ws/src/ros_tutorials_service/include/**",
+        "/home/obo/catkin_ws/src/send_yolo_data/include/**",
+        "/home/obo/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/obo/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/obo/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/obo/catkin_ws/src/urdf_exam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
