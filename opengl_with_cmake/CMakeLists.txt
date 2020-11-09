@@ -1,31 +1,9 @@
-# project(opengl_test) 
-# cmake_minimum_required(VERSION 2.8) 
-# 
-# #OpenGL 라이브러리 설정시 find_packages 는 모든 OS 에서 잘 작동함.
-# find_package(OpenGL REQUIRED)
-# 
-# #freeglut 라이브러리 설정
-# set(GLUT_LIBRARIES libglut.so)
-# set(GLUT_INCLUDE_DIRS /usr/include/GL)
-# set(GLUT_LIBRARY_DIRS /usr/lib/x86_64-linux-gnu)
-# 
-# #GLEW 라이브러리 설정
-# set(GLEW_LIBRARIES libGLEW.so)
-# set(GLEW_INCLUDE_DIRS /usr/include/GL)
-# set(GLEW_LIBRARY_DIRS /usr/lib/x86_64-linux-gnu)
-# 
-# add_executable(opengl_test cmake_test.cpp) 
-# 
-# INCLUDE_DIRECTORIES ( ${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS})
-# LINK_LIBRARIES( ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} ${GLEW_LIBRARIES})
-# LINK_DIRECTORIES ( ${OPENGL_LIBRARY_DIRS} ${GLUT_LIBRARY_DIRS} ${GLEW_LIBRARY_DIRS})
-
 
 cmake_minimum_required(VERSION 2.8)
 
 
-PROJECT(Opengl) # #his is the name of your project
-SET( Executable_file       Hello_world_GL     ) # This is how you .exe will be named
+PROJECT(opengl_with_cmake) # #his is the name of your project
+SET( Executable_file       run_file     ) # This is how you .exe will be named
 
 
 
