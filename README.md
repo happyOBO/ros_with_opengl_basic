@@ -25,7 +25,18 @@ rosrun ros_with_opengl_basic talker
 ```bash
 rosrun ros_with_opengl_basic listener
 ```
+### ``listener.cpp`` 코드 설명
 
+```cpp
+  thread t1(glutMainLoop);
+  ros::spin();
+  t1.join();
+```
+
+- ``glutMainLoop()`` 와 ``spin()`` 모두 반복을 요하는 메소드 이다. 
+  - ``ros::spin()`` : 프로그램이 종료 될때까지 반복해서 큐에 요청된 콜백함수를 처리
+  - ``glutMainLoop()`` : ``OpenGL`` 이벤트 처리 루프
+- ``glutMainLoop()`` 로 스레드로 실행시켜 아래의 코드 ``ros::spin()`` 가 실행 될수 있도록 한다.
 
 ## ``OpenGL CMake``
 
